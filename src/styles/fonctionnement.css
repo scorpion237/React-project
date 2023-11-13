@@ -1,0 +1,31 @@
+/* FonctionnementPage.css */
+
+.fonctionnement-page {
+    font-family: 'Votre Police', sans-serif; /* Remplacez par la police du site */
+  }
+  
+  .custom-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .custom-list li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px; /* Ajustez selon vos besoins */
+    line-height: 1.5;
+  }
+  
+  .custom-list li .bullet {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px; /* Ajustez selon vos besoins */
+    height: 10px; /* Ajustez selon vos besoins */
+    background-color: #a01f64; /* Couleur du point, ajustez selon vos besoins */
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px; /* Espace entre le point et le texte, ajustez selon vos besoins */
+  }
+  

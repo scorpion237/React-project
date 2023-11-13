@@ -1,0 +1,113 @@
+/* Accueil.css */
+.accueil {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .logo {
+    text-align: center;
+  }
+  
+  .actualites,
+  .services,
+  .temoignages {
+    margin-top: 40px;
+  }
+  
+  .actualite-item,
+  .service-item,
+  .temoignage-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  footer {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  /* styles.css (ou tout autre nom de fichier CSS que vous utilisez) */
+.slogan {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #333;
+  line-height: 1.4;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+/* styles.css (ou tout autre nom de fichier CSS que vous utilisez) */
+.slogan {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.5em;
+  line-height: 1.4;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.keyword {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  color: #f5721b;
+}
+
+/* styles.css (ou tout autre nom de fichier CSS que vous utilisez) */
+.grid_section {
+  display: flex;
+  justify-content: space-around;
+  text-align: justify;
+  margin-top: 5%;
+}
+
+.icon_title {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
+  color: #f5721b;
+}
+
+.icon_text_holder {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.icon_text_inner {
+  color: #fff;
+}
+
+.icon_with_title_link {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+.icon_with_title_link:hover {
+  color: #fff;
+}
+
+.q_icon_with_title {
+  margin-bottom: 30px;
+}
+
+.qode_iwt_icon_element {
+  font-size: 55px;
+}
+/* Ajouter une marge à droite de chaque colonne pour augmenter l'espace */
+.wpb_column {
+  margin-right: 20px; /* Ajustez cette valeur selon vos besoins */
+}
+
+/* Supprimer la marge de la dernière colonne pour éviter un espace excessif à la fin */
+.wpb_column:last-child {
+  margin-right: 0;
+}
