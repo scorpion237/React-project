@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = B:/freelance/React-project/Admin-sabine-project
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
