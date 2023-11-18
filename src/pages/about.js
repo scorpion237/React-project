@@ -38,14 +38,13 @@ function AppAbout() {
       
       <div className="title-holder">
           <h2>À <span>propos</span></h2>
-          <div className="subtitle">Sabine Canel</div>
-        </div><p>Ayant débuté ma carrière d'adjointe administrative en France, j'ai contribué de manière active à la croissance de PME et de start-ups pendant une période de 6 ans. En l'an 2000, j'ai concrétisé l'un de mes rêves personnels les plus chers en déménageant au Québec.</p> 
-        <p>Au Québec, je continue mon parcours professionnel en collaborant avec diverses entreprises, tant nationales qu'internationales. Cette expérience m'a permis d'enrichir mon expertise, me permettant ainsi de répondre à une variété de besoins et de m'adapter efficacement à différents contextes.</p>
-        <p>En 2019, j'ai concrétisé le projet professionnel qui me tient à cœur depuis de nombreuses années : la création de ma propre entreprise..</p>
-        <p>En créant ADMIN' Comme Sabine, je fusionne mon sens inné de l'entrepreneuriat avec mon expertise, tout en répondant avant tout à ma quête de sens.</p>
-        <p> À travers cette initiative, je partage la passion de mes clients, contribuant ainsi à leur succès et au rayonnement de leur entreprise grâce à mon savoir-faire. Pour moi, faire la différence pour mes clients donne tout son sens à ma contribution.</p>
-        <p>À l'écoute des besoins et des réalités spécifiques de mes clients, je mets à contribution ma créativité et ma flexibilité pour relever leurs défis. Mon approche pragmatique est orientée vers les résultats, toujours dans un souci constant d'efficacité. En partageant la passion de mes clients, je contribue à façonner un environnement professionnel propice à la réussite.</p>
-        <p>Pour moi, une collaboration gagnante repose sur les piliers fondamentaux de la confiance et de la communication, tout en n'omettant jamais d'insuffler une atmosphère de bonne humeur et de plaisir !</p></div>
+          <div className="subtitle">AB-consulting</div>
+        </div><p>Bienvenue chez [Votre Nom], votre partenaire d'efficacité administrative virtuelle. Forte d'une expertise solide en gestion administrative, je m'engage à libérer votre temps précieux afin que vous puissiez vous concentrer sur le cœur de votre entreprise.</p> 
+        <p>Ayant évolué dans le domaine de l'assistanat administratif pendant plusieurs années, j'ai développé une passion pour la simplification des processus et l'optimisation des opérations. Mon objectif en tant qu'adjointe administrative virtuelle est de vous offrir un soutien complet, allant de la gestion de l'agenda à la création de documents professionnels.</p>
+        <p>Ce que je propose va au-delà de simples tâches administratives. Je suis votre partenaire stratégique, travaillant en coulisses pour assurer la fluidité de vos opérations quotidiennes. Grâce à la technologie moderne, je peux collaborer de manière transparente avec vous, où que vous soyez.</p>
+        <p>Chez [Votre Nom], la confidentialité, la précision et la réactivité sont les piliers de mon service. Chaque projet est traité avec un souci du détail méticuleux, garantissant des résultats impeccables à chaque étape.</p>
+        <p>Explorez la liberté de déléguer vos tâches administratives et concentrez-vous sur l'essentiel. Faisons équipe pour faire grandir votre entreprise.</p>
+        </div>
           </Col> 
         </Row>
       </Container>

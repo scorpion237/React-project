@@ -5,15 +5,15 @@ var heroData = [
   {
     id: 1,
     image: require('../assets/images/img-hero1.jpg'),
-    title: 'The perfect design for your website',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
+    title: 'Une conception d\'exception pour votre site web, alliant élégance et performance',
+    description: 'Explorez l\'apogée de l\'élégance web avec [Nom de votre entreprise]. Chaque pixel, chaque détail est méticuleusement conçu pour créer une expérience immersive et parfaite. Notre équipe dédiée vous offre un design exceptionnel, une fusion parfaite entre esthétique et fonctionnalité. Découvrez l\'extraordinaire. Bienvenue chez [Nom de votre entreprise].',
     link: 'https://www.google.com'
   },
   {
     id: 2,
-    image: require('../assets/images/img-hero2.jpg'),
-    title: 'Start Your Future Financial Plan',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
+    image: require('../assets/images/comptable 2.jpg'),
+    title: 'Commencez à façonner votre avenir financier dès maintenant, avec expertise et vision.',
+    description: 'Entamez dès maintenant votre plan financier avec [Nom de votre entreprise]. Nous vous offrons une feuille de route personnalisée, conçue par notre équipe dédiée pour guider votre avenir financier avec expertise. Bienvenue chez [Nom de votre entreprise], où la professionnalisme sculpte votre succès financier.',
     link: 'https://www.facebook.com'
   },
   {
@@ -22,7 +22,14 @@ var heroData = [
     title: 'Enjoy the Difference',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
     link: 'https://www.twitter.com'
-  }
+  },
+  {
+    id: 4,
+    image: require('../assets/images/building 1.jpg'),
+    title: 'Construire l\'Avenir, Étape par Étape.',
+    description: 'Construisez l\'avenir de votre projet avec [Nom de votre entreprise]. Chaque étape est minutieusement planifiée par notre équipe dédiée, créant ainsi une trajectoire personnalisée pour le succès de votre construction. Bienvenue chez [Nom de votre entreprise], où le professionnalisme bâtit la réussite de votre projet.',
+    link: 'https://www.google.com'
+  },
 ]
 
 function AppHero() {
@@ -39,7 +46,7 @@ function AppHero() {
               <Carousel.Caption>
                 <h2>{hero.title}</h2>
                 <p>{hero.description}</p>
-                <a className="btn btn-primary" href={hero.link}>Learn More <i className="fas fa-chevron-right"></i></a>
+                <a className="btn btn-primary" href={hero.link}>En savoir + <i className="fas fa-chevron-right"></i></a>
               </Carousel.Caption>
             </Carousel.Item>
           );
@@ -64,7 +71,7 @@ function AppHero() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <h3 className="icon_title">Organisée</h3>
-                <p>Maîtriser la gestion de mon temps, savoir distinguer les urgences des priorités et structurer mes outils et documents de travail, voilà ce qui me permet de respecter les échéances fixées avec mes clients.</p>
+                <p>La gestion habile de mon emploi du temps, la capacité à discerner les impératifs des priorités, ainsi que l'organisation méthodique de mes outils et documents de travail sont les piliers qui me permettent de respecter rigoureusement les délais convenus avec mes clients.</p>
                 <a className="icon_with_title_link" href="https://admincommesabine.ca/fonctionnement/" target="_self">En savoir +</a>
               </div>
             </div>
@@ -75,7 +82,7 @@ function AppHero() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <h3 className="icon_title">Efficace</h3>
-                <p>Fournir à mes clients un travail de qualité exécuté dans les meilleurs délais est une de mes exigences.</p>
+                <p>Mon engagement premier est de fournir à mes clients un travail de qualité, exécuté dans les délais les plus brefs, répondant ainsi à l'une de mes exigences fondamentales.</p>
                 <a className="icon_with_title_link" href="https://admincommesabine.ca/fonctionnement/" target="_self">En savoir +</a>
               </div>
             </div>

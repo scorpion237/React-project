@@ -547,7 +547,8 @@ span {
 
 .hero-block .carousel-item:before {
   content: '';
-  background: rgba(0, 0, 0, 0.7);
+  /* background: rgba(0, 0, 0, 0.432); */
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1248,4 +1249,15 @@ span {
     font-size: 26px;
     margin: 0;
   }
+  .content-block ul li::first-letter {
+    float: left;
+    font-size: 1.2em; /* Ajustez la taille de la première lettre selon vos préférences */
+    line-height: 1; /* Alignement vertical avec la puce */
+    margin-right: 5px; /* Espace entre la première lettre et la puce */
+  }
+  
+  .content-block ul li::first-letter + .bullet {
+    margin-left: -5px; /* Alignement horizontal avec la puce */
+  }
+  
 }
