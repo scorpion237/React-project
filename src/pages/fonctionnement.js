@@ -51,21 +51,20 @@ function APPFonctionnement  ()  {
 
               <section>
         <ul className="custom-list">
-        <li>
-  <span className="first-letter">N</span>
-  <span className='circle'></span>
-  ous vous proposons une consultation téléphonique afin de comprendre en profondeur vos besoins et les défis auxquels vous faites face. Au cours de cet échange, nous partagerons avec vous notre approche opérationnelle et expliquerons comment nous pouvons véritablement simplifier la gestion administrative de votre entreprise. C'est l'occasion idéale de discuter et de découvrir comment nous pouvons contribuer positivement à votre organisation.
+          <li>
+            <span className="bullet"></span>Nous vous offrons une consultation téléphonique permettant de dresser un portrait de vos besoins et de vos défis. Cet échange vous présentera également notre fonctionnement et la manière dont nous pouvons faire une différence en allégeant la gestion administration de votre entreprise.
+             </li>
+          <li>
+            <span className="bullet"></span>Vous recevrez ensuite un devis adapté à vos besoins.
 </li>
-
           <li>
-            Vous recevrez ensuite une soumission adaptée à votre réalité. </li>
-          <li>
-            Si vous souhaitez initier notre collaboration, vous recevrez une offre de service et nous signerons une entente de confidentialité. </li>
-            <ul>Communication avec Skype, Outlook et Gmail;</ul>
+            <span className="bullet"></span>
+            Pour lancer notre collaboration, vous recevrez une offre de service et nous conclurons un accord de confidentialité. </li>
+            <ul>Pour communiquer avec nous, vous pouvez utiliser Skype, Outlook ou Gmail.;</ul>
         </ul>
       </section>
 
-      <section>
+      {/* <section>
         <h2>Section 2</h2>
         <ul className="custom-list">
           <li>
@@ -99,21 +98,7 @@ function APPFonctionnement  ()  {
             Élément Z
           </li>
         </ul>
-      </section>
-      <ul className="list-group">
-      <li className="list-group-item d-flex align-items-center">
-        <span className="bullet mr-2">&#8226;</span>
-        Nous vous proposons une consultation téléphonique afin de comprendre en profondeur vos besoins et les défis auxquels vous faites face. Au cours de cet échange, nous partagerons avec vous notre approche opérationnelle et expliquerons comment nous pouvons véritablement simplifier la gestion administrative de votre entreprise. C'est l'occasion idéale de discuter et de découvrir comment nous pouvons contribuer positivement à votre organisation.
-      </li>
-      <li className="list-group-item d-flex align-items-center">
-        <span className="bullet mr-2">&#8226;</span>
-        Deuxième élément
-      </li>
-      <li className="list-group-item d-flex align-items-center">
-        <span className="bullet mr-2">&#8226;</span>
-        Troisième élément
-      </li>
-    </ul>
+      </section> */}
             </Col>
           </Row>
         </Container>
