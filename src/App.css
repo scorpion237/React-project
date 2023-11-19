@@ -580,6 +580,7 @@ span {
   text-transform: uppercase;
   margin: 0 0 5px;
   font-size: 16px;
+  text-align: justify;
 }
 
 .about-block .progress-bar {
@@ -1258,7 +1259,38 @@ span {
   
   .content-block ul li::first-letter + .bullet {
     margin-left: -5px; /* Alignement horizontal avec la puce */
-    
+
   }
+
+  /* pourquoi faire appel à une adjointe virtuelle? */
+  
+  /* Ajoute une marge à droite des icônes pour l'espacement */
+.icon {
+  margin-right: 10px;
+  color: #f64b4b;
+}
+
+/* Couleur du texte pour les titres */
+h2 {
+  color: #3f18ec;
+}
+
+/* Couleur du texte pour les paragraphes */
+p {
+  color: #4408cf;
+  line-height: 1.6;
+}
+
+/* Ajoute une marge en bas des colonnes pour l'espacement */
+.mb-4 {
+  margin-bottom: 20px;
+}
+
+/* Définir la couleur de fond du conteneur */
+.container {
+  background-color: #f8f9fa;
+  padding: 30px;
+}
+
   
 }

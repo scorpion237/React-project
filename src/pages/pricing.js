@@ -7,23 +7,23 @@ const pricingData = [
   {
     id: 1,
     plan: 'Basic',
-    price: '£49',
-    features: ['Wireframing', 'Visual Design', '5 pages', 'Free Hosting', 'Support & Assistance'],
-    link: 'https://www.google.com'
+    price: '49$',
+    features: ['Maquette filaire', 'Conception visuelle', '15 pages', 'Hébergement gratuit', ' Support et assistance'],
+    link: 'ContactForm'
   },
   {
     id: 2,
     plan: 'Premium',
-    price: '£149',
-    features: ['Wireframing', 'Visual Design', '15 pages', 'Free Hosting', 'Support & Assistance'],
-    link: 'https://www.facebook.com'
+    price: '149$',
+    features: ['Maquette filaire', 'Conception visuelle', '15 pages', 'Hébergement gratuit', ' Support et assistance'],
+    link: 'ContactForm'
   },
   {
     id: 3,
     plan: 'Ultimate',
-    price: '£349',
-    features: ['Wireframing', 'Visual Design', 'Unlimited pages', 'Free Hosting', 'Support & Assistance'],
-    link: 'https://www.twitter.com'
+    price: '349$',
+    features: ['Maquette filaire', 'Conception visuelle', '15 pages', 'Hébergement gratuit', ' Support et assistance'],
+    link: 'ContactForm'
   }
 ]
 
@@ -32,8 +32,8 @@ function AppPricing() {
     <section id="pricing" className="block pricing-block">
       <Container fluid>
         <div className="title-holder">
-          <h2>Pricing &amp; plans</h2>
-          <div className="subtitle">check our pricing &amp; plans</div>
+          <h2>Prix &amp; plans</h2>
+          <div className="subtitle">choisisez l'offre qui vous definie le mieux </div>
         </div>
         <Row>
           {
@@ -56,7 +56,7 @@ function AppPricing() {
                     </ListGroup>
                   </div>
                   <div className='btn-holder'>
-                    <a href={pricing.link} className='btn btn-primary'>Order Now</a>
+                    <a href={pricing.link} className='btn btn-primary'>commander</a>
                   </div>
                 </Col>
               )
