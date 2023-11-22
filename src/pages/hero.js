@@ -55,7 +55,7 @@ function AppHero() {
     </section><div className="accueil">
         <header>
           <div className="logo">
-            <h1>L’<span style={{ color: '#f5721b', fontSize: '2em', fontWeight: 'bold', fontFamily: 'Amatic Sc, Brush Script MT, cursive, sans-serif' }}>expertise administrative adaptée</span> aux besoins de votre entreprise</h1>
+            <h1>L’<span style={{ color: '#f5721b', fontSize: '2em', fontWeight: 'bold', fontFamily: 'Amatic Sc, sans-serif' }}>expertise administrative adaptée</span> aux besoins de votre entreprise</h1>
 
             <p className="slogan">
               Mon <span className="keyword">engagement</span> : m'ajuster à vos <span className="keyword">besoins</span>, défis spécifiques et contexte unique pour un service ultra personnalisé.

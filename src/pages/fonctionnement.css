@@ -1,0 +1,104 @@
+.assistant-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* Trois colonnes pour les sections et une colonne pour l'aside */
+    gap: 20px; /* Espacement entre les colonnes */
+    margin-top: 30px; /* Ajoutez une marge supérieure pour séparer le contenu du header */
+  }
+
+.section {
+  padding: 30px;
+  margin: 5px;
+  background-color: #e9e8e8c4; /* Couleur de fond pour les sections */
+  border: 2px solid silver; /* Bordure argentée pour les sections */ 
+ border-radius: 10px; /* Coins arrondis pour l'aside */
+ text-align: justify;
+ text-indent: 3%;
+}
+
+aside {
+  padding: 20px;
+  background-color: #f0f0f0; /* Couleur de fond pour l'aside */
+  border: 2px solid silver; /* Bordure argentée pour l'aside */
+  border-radius: 10px; /* Coins arrondis pour l'aside */
+}
+
+article {
+  margin-bottom: 20px;
+  border-radius: 10px; /* Coins arrondis pour l'aside */
+}
+
+img {
+  max-width: 100%; /* Assurez-vous que les images ne dépassent pas la largeur de leur conteneur */
+  border-radius: 5px; /* Coins arrondis pour les images */
+  display: block; /* Pour supprimer les marges par défaut qui peuvent causer des problèmes d'alignement */
+  margin-bottom: 15px; /* Espace en bas de l'image */
+}
+
+
+/* Carousel Control */
+.carousel-control {
+    width: 15%;
+}
+
+/* Carousel Item Overlay */
+.carousel-item:before {
+    content: '';
+    background: rgba(112, 111, 111, 0.3);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.btn.btn-primary {
+    padding: 9px 35px;
+  }
+
+/* Carousel Item Image */
+.carousel-item img {
+    width: 100%;
+}
+
+/* Adjusted Carousel Caption */
+.carousel-caption {
+    left: 25%;
+    right: 25%;
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    bottom: 50%;
+}
+
+/* Vertical Carousel */
+.carousel-inner.vertical-carousel {
+    display: flex;
+    flex-direction: column;
+    animation: scrolldow 10s linear infinite;
+    overflow: hidden;
+    height: auto;
+}
+
+.carousel-inner.vertical-carousel .carousel-item {
+    transform: translateY(100%);
+    margin-bottom: 10px;
+}
+/* Couleur de texte pour le carousel */
+.carousel-caption {
+    color: #cef011a2; /* Ajoutez la couleur de texte que vous souhaitez */
+}
+.carousel-inner.vertical-carousel .carousel-item.active {
+    transform: translateY(0);
+}
+
+.carousel-inner.vertical-carousel .carousel-item-next,
+.carousel-inner.vertical-carousel .carousel-item-prev,
+.carousel-inner.vertical-carousel .carousel-item.active.left,
+.carousel-inner.vertical-carousel .carousel-item.active.right {
+    transform: translateY(100%);
+}
+
+  .vertical-carousel .carousel-inner {
+    display: flex;
+    flex-direction: column;
+    height: 450px; /* Ajoutez une hauteur fixe selon vos besoins */
+  }  
+  

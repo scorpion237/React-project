@@ -9,21 +9,21 @@ const pricingData = [
     plan: 'Basic',
     price: '49$',
     features: ['Maquette filaire', 'Conception visuelle', '15 pages', 'Hébergement gratuit', ' Support et assistance'],
-    link: 'ContactForm'
+    link: 'formulaire'
   },
   {
     id: 2,
     plan: 'Premium',
     price: '149$',
     features: ['Maquette filaire', 'Conception visuelle', '15 pages', 'Hébergement gratuit', ' Support et assistance'],
-    link: 'ContactForm'
+    link: 'formulaire'
   },
   {
     id: 3,
     plan: 'Ultimate',
     price: '349$',
     features: ['Maquette filaire', 'Conception visuelle', '15 pages', 'Hébergement gratuit', ' Support et assistance'],
-    link: 'ContactForm'
+    link: 'formulaire'
   }
 ]
 

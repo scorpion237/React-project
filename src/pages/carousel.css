@@ -1,0 +1,24 @@
+/* Ajoutez cela à votre fichier CSS */
+.carousel-images-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Inverser la direction de l'alignement vers le haut */
+    height: 100%; /* Ajustez la hauteur selon vos besoins */
+    overflow: hidden; /* Masquer le débordement pour créer l'effet de défilement vers le haut */
+  }
+  
+  .carousel-images {
+    max-height: 100%; /* Assurez-vous que l'image ne dépasse pas la hauteur du carousel */
+    width: auto; /* Ajustez la largeur selon vos besoins */
+    animation: slide-up 1s ease-in-out infinite; /* Animation vers le haut */
+  }
+  
+  @keyframes slide-up {
+    0% {
+      transform: translateY(100%); /* Direction du défilement vers le bas */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  

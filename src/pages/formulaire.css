@@ -1,0 +1,62 @@
+/* Ajoutez ces styles à votre fichier CSS ou balise style dans votre composant React */
+
+/* Styles généraux */
+.forms {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin-top: 0%;
+  align-items: center;
+  justify-content:space-around;
+  height: 90vh;  
+  display: flex;
+  
+}
+
+/* Styles du formulaire */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  /* margin-top: 1000px; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+/* Styles des champs de formulaire */
+form input[type="text"],
+form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Styles du bouton */
+form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles de la case à cocher */
+form input[type="checkbox"] {
+  margin-right: 5px;
+}

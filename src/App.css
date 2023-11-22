@@ -36,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Muli", sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 400;
   margin: 0 0 20px;
   color: inherit;
@@ -118,7 +118,7 @@ ul,
 
 .content-block ul li:before {
   content: '\f101';
-  font-family: 'fontawesome';
+  font-family: 'fontawesome', Georgia, 'Times New Roman', Times, serif;
   position: absolute;
   top: 0;
   left: 0;
@@ -384,7 +384,7 @@ textarea {
   right: 0;
   top: 0;
   z-index: 9999;
-  background: #fff;
+  background: #001F3F;
   box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.5s linear;
 }
@@ -419,14 +419,14 @@ textarea {
 }
 
 #header .navbar-collapse a {
-  color: #4d4d4d;
+  color: #FFFFFF;
   position: relative;
 }
 
 #header .navbar-collapse a:hover,
 #header .navbar-collapse a.active {
   background: none;
-  color: #f64b4b;
+  color: #87CEEB;
 }
 
 #header .navbar-collapse a:hover:before,
@@ -490,9 +490,11 @@ textarea {
 } */
 
 .footer {
-  background-color: #f64b4b;
-  color: white;
-  padding: 20px 0;
+  width: 100%;
+  box-sizing: border-box; /* Assurez-vous que les bordures et les rembourrages ne dépassent pas la largeur spécifiée */
+  background-color: #001F3F;
+  color: #ADD8E6;
+  padding: 20px
 }
 
 .footer-content {
@@ -525,14 +527,14 @@ span {
 }
 
 .about{
-  font-Family: 'cursive';
+  font-Family: 'Georgia';
   text-align: justify;
 }
 
            
 
 .footer-bottom p {
-  margin: 0;
+  margin: 20;
 }
 
 
@@ -593,7 +595,7 @@ span {
   width: 60px;
   height: 60px;
   font-size: 26px;
-  color: #f64b4b;
+  color: #FFA500;
   margin: 0 0 20px;
   display: inline-block;
   vertical-align: middle;
@@ -627,7 +629,7 @@ span {
 }
 
 .services-block .holder:hover .icon {
-  box-shadow: inset 0 0 0 30px #f64b4b;
+  box-shadow: inset 0 0 0 30px #FFD700;
   color: #fff;
   font-size: 18px;
 }
@@ -817,7 +819,7 @@ span {
 }
 
 .testimonials-block .carousel-indicators .active {
-  background: #f64b4b;
+  background: #001F3F;
 }
 
 .pricing-block .row {

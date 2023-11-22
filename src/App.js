@@ -16,6 +16,7 @@ import AppBlog from './pages/blog';
 import AppContact from './pages/contact';
 import AppFonctionnement from './pages/fonctionnement';
 import ContactForm from './pages/ContactForm'
+import Formulaire from './pages/formulaire'
 import Container from 'react-bootstrap/esm/Container';
 import './styles/home.css'
 function App() {
@@ -60,6 +61,7 @@ function App() {
             <Route path="/blog" element={<AppBlog />} />
             <Route path="/contact" element={<AppContact />} />
             <Route path='/ContactForm' element={<ContactForm />} />
+            <Route path='/formulaire' element={<Formulaire />} />
           </Routes>
         </main>
         <footer id="footer">

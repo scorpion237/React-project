@@ -8,7 +8,7 @@ const worksData = [
   {
     id: 1,
     link: 'https://www.google.com',
-    image: require('../assets/images/img2.jpg'),
+    image: require('../assets/images/projet react/reseau.jpeg'),
     title: 'Lonely Path',
     subtitle: 'Web Design'
   },
@@ -29,21 +29,21 @@ const worksData = [
   {
     id: 4,
     link: 'https://www.google.com',
-    image: require('../assets/images/img5.jpg'),
+    image: require('../assets/images/projet react/WhatsApp Image 2023-11-19 at 21.43.35 (10).jpeg'),
     title: 'Nature Patterns',
     subtitle: 'Branding'
   },
   {
     id: 5,
     link: 'https://www.google.com',
-    image: require('../assets/images/img6.jpg'),
+    image: require('../assets/images/projet react/book_hotel.jpeg'),
     title: 'The Difference',
     subtitle: 'Photography'
   },
   {
     id: 6,
     link: 'https://www.google.com',
-    image: require('../assets/images/img7.jpg'),
+    image: require('../assets/images/projet react/projet.jpeg'),
     title: 'Winter Sonata',
     subtitle: 'Web Design'
   },
@@ -57,7 +57,7 @@ const worksData = [
   {
     id: 8,
     link: 'https://www.google.com',
-    image: require('../assets/images/img9.jpg'),
+    image: require('../assets/images/img10.jpg'),
     title: 'Appreciation',
     subtitle: 'Photography'
   },
